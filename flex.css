@@ -31,6 +31,7 @@ body{
     margin-left: 500px;
     margin-right: 400px;
     margin-top: 200px;
+    max-width: 1440px;
 
 
 }
@@ -197,5 +198,17 @@ body{
     margin-bottom: 40px;
     border-radius: 30px ;
     color: #D6DCE4;
+}
+@media (min-width:900px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 200px;
+    }
+
+    
 }
 
