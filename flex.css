@@ -1,0 +1,201 @@
+@font-face {
+    font-family:heinekenbold ;
+    src: url(fonts/HankenGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family: heinekenextrabold;
+    src: url(fonts/HankenGrotesk-ExtraBold.ttf);
+}
+@font-face {
+    font-family: heinekenmedium;
+    src: url(fonts/HankenGrotesk-Medium.ttf);
+}
+@font-face {
+    font-family: fontwight;
+    src: url(fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 10px 5px #E9F0FB;
+    box-sizing: border-box;
+    width: 50px auto;
+    padding-right: 60px;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 200px;
+
+
+}
+.side-panel{
+    background-color: #6A73F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    height: 410px;
+    border-radius: 30px;
+}
+.side-panel h3{
+    margin-top: 0px;
+    color: #CCC4F9;
+    font-family:  fontwight;
+    margin-bottom: 30px;
+
+}
+.side-panel p{
+    color: #CCC4F9;
+    font-family:  fontwight;
+}
+.side-panel h2{
+    color: #FDFAFF;
+    margin-bottom: 2px;
+    font-family:  fontwight ;
+    margin-top: 30px;
+}
+.round{
+    border-radius: 50%;
+    background-color: #5262d1;
+    width: 80px;
+    padding: 30px;
+}
+
+.seven-six{
+    font-size: 50px;
+    color: #FEFEFA;
+    font-family: heinekenextrabold ;
+
+}
+.of{
+    color: #8D78F4;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:left;
+    margin-left: 30px;
+    width: 200PX;
+    font-family:  heinekenmedium;
+    
+}
+.container2 h2{
+    margin-bottom: 10px;
+}
+
+.react{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFF6F6;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-bottom-left-radius: black;
+    border-radius: 10px ;
+}
+.orangered{
+   padding-right: 8px;
+   margin-top: 2px;
+}
+.reaction{
+    color: #E77B7A;
+    padding-right:65px;
+}
+.slash{
+    color: #A5A1AC;
+    padding-left: 5px;
+}
+.eith{
+    color: #A5A1AC;
+    padding-left: 3px;
+}
+.mem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFFBF2;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px ;
+
+}
+.orange{
+    padding-right: 8px;
+    margin-top: 2px;
+
+}
+.memory{
+    color: #FFC772;
+    padding-right:70px;
+
+}
+.verb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F2FBFA;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px ;
+
+}
+.green{
+    padding-right: 8px;
+    margin-top: 2px;
+    margin-left: 0px;
+
+}
+
+.verbal{
+    color: #5CD6B7;
+    padding-right:80px;
+
+}
+.vis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3F3FD;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px ;
+
+}
+.blue{
+    padding-right: 8px;
+    margin-top: 2px;
+
+}
+.visual{
+    color: #6B6AAC;
+    padding-right:80px;
+
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #303B59;
+    outline: none;
+    width: 100%;
+    padding: 13px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 30px ;
+    color: #D6DCE4;
+}
+
